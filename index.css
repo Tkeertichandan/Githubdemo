@@ -1,4 +1,17 @@
-h1{
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+#container div{
+    height: 200px;
+    width:  340px;
+    margin: 60px;
     text-align: center;
-    background-color: brown;
+    border-radius: 10px;
+    border: 2px solid black;
+
 }
